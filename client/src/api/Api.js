@@ -18,8 +18,9 @@ export const fetchVideos = async () => {
     return axios.get(`${API_URL}/videos`);
 };
 
-export const purchaseBook = async (purchaseData, token) => {
-    return axios.post(`${API_URL}/purchase`, purchaseData, {
-        headers: { Authorization: `Bearer ${token}` },
-    });
-};
+// export const purchaseBook = async (purchaseData, token) => {
+//     return axios.post(`${API_URL}/purchase`, purchaseData, {
+//         headers: { Authorization: `Bearer ${token}` },
+//     });
+// };
+// //
